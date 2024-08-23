@@ -39,7 +39,7 @@ for i in range(a):
 
 print("The queue elements are:", queue)
 
-if not queue.is_empty():
+if queue:
     print("Element popped is", queue.dequeue()) 
     print("Element popped is", queue.dequeue())  
 else:
