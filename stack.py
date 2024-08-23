@@ -38,7 +38,7 @@ for i in range(a):
 
 print("The elements in stack are:", stack) 
 
-if not stack.is_empty():
+if stack:
     print("Element popped from stack:", stack.pop())
     print("Element popped from stack:", stack.pop())
 else:
